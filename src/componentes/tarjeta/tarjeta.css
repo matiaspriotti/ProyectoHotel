@@ -1,0 +1,126 @@
+.componenteTarjeta {
+	height: 611px;
+	width: 349px;
+	border-radius: 10px;
+	border: 2px solid rgb(228, 228, 236);
+	margin: -1px;
+	margin-left: 9px;
+	margin-right: 10px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+.contenedor-general {
+	padding: 0px 20px;
+}
+
+.imagenPrincipal {
+	width: 350px;
+	border-radius: 8px 8px 0px 0px;
+	margin-top: -1px;
+}
+
+.imagenesPequenas {
+	display: flex;
+}
+
+.contenedor-tituloydescripcion {
+	padding: 10px;
+}
+
+.titulo {
+	font-family: 'Raleway';
+	font-size: 20px;
+	padding-top: 5px;
+
+	display: block;
+	display: -webkit-box;
+	max-width: 100%;
+	height: 28.2px;
+	margin: 0 auto;
+
+	line-height: 1.2;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.descripcion {
+	font-family: 'Raleway';
+	font-size: 14px;
+	padding-top: 15px;
+	color: rgb(84, 84, 87);
+
+	display: block;
+	display: -webkit-box;
+	max-width: 100%;
+	height: 98px;
+	margin: 0 auto;
+
+	line-height: 1.4;
+	-webkit-line-clamp: 5;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.iconoytexto {
+	display: flex;
+	padding: 10px;
+}
+
+.fa-map-marker-alt {
+	background-color: rgb(91, 173, 228);
+	padding: 10px;
+	font-size: 14px;
+	border-radius: 5px 0px 0px 5px;
+	color: white;
+}
+
+.room-bed.fa-bed {
+	background-color: rgb(91, 173, 228);
+	padding: 10px;
+	font-size: 14px;
+	border-radius: 5px 0px 0px 5px;
+	color: white;
+}
+
+.texto {
+	background-color: rgb(243, 242, 237);
+	padding: 5px 10px;
+	border-radius: 0px 5px 5px 0px;
+	color: rgb(84, 84, 87);
+}
+
+.room-price.fa-dollar-sign {
+	margin-left: 20px;
+	background-color: rgb(91, 173, 228);
+	padding: 10px;
+	font-size: 14px;
+	border-radius: 5px;
+	color: white;
+}
+
+.precio {
+	font-size: 20px;
+}
+
+.boton {
+	width: 350px;
+	padding: 18px 0px;
+	margin-top: 15px;
+	margin-left: -20.4px;
+	border: none;
+	border-radius: 0px 0px 8px 8px;
+	background-color: rgb(12, 207, 181);
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-size: 15px;
+	color: white;
+}
+
+.boton:hover {
+	background-color: rgb(19, 151, 134);
+	cursor: pointer;
+}

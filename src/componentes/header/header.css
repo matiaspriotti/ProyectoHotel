@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.contenedorTituloYdescripcion {
+    padding: 40px 60px;
+
+}
+
+.fondoTituloHoteles {
+    background: rgb(47,70,186);
+    background: radial-gradient(circle, rgba(47,70,186,1) 25%, rgba(13,46,84,1) 90%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.tituloHoteles {
+    font-size: 40px;
+    font-family: 'Raleway';
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+
+.descripcionFecha {
+    font-size: 14px;
+    font-family: 'Raleway';
+    display: flex;
+    color: white;
+    
+}
+
+.App-logos {
+    height: 60px;
+    margin: 18px; 
+    transform: rotate(360deg);
+    animation: App-logo-spin infinite 20s linear;
+}
+
+.divlogo {
+    
+    padding-top: 20px;
+    
+}
