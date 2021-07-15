@@ -49,6 +49,12 @@ export const filterByRooms = (hotelRooms, userRooms) => {
 	if (userRooms === 'cualquier') {
 		return true
 	} else {
-		return hotelRooms === userRooms
+		if (userRooms === 'chico') {
+			return hotelRooms > 0 && hotelRooms <= 10
+		} else if (userRooms === 'mediano') {
+			return hotelRooms > 10 && hotelRooms <= 20
+		} else if (userRooms === 'grande') {
+			return hotelRooms > 20
+		}
 	}
 }
